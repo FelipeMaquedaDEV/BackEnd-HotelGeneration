@@ -1,0 +1,60 @@
+**Consideración especial: Tener un proyecto básico de Gradle importado
+**Consideracion especial 2: Tener los paquetes del controller, service, repository y entity dentro del paquete princial (demo)
+
+
+
+
+Paso 1:
+
+	- Creación de nuestra entidad (atributos, constructor con todos los campos, constructor vacio, getters, setters y toString).
+	- Modificacion de mi entidad (clase POJO) para conectarla a la BD de MySQL (@Entity, @Table, @GenerateValue, etc).
+
+	
+	
+	
+Paso 2: 
+
+	- Creamos una interface para nuestra entidad que herede del JPA repository (recuerda que debe estar dentro de su paquete correspondiente). 
+	
+	
+	
+	
+Paso 3: 
+
+	- Creamos el servicio de nuestra entidad, agregando sus anotaciones correspondientes (@Service) y realizando la inyeccion de dependencias.
+	- Creamos las operaciones del CRUD para manejar nuestras entidades (Productos)
+	
+	
+	
+	
+	
+Paso 4:
+
+	- Creamos el controller de nuestra entidad, agregado sus anotaciones correspondientes (@RestController) y realizando la inyeccion de dependencias. 
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
